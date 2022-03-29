@@ -1,0 +1,211 @@
+
+.container{
+    text-align: center;
+  
+  }
+  input{
+    border: 0;
+    border-bottom: 1px solid black;   
+    height: 20px;
+    width: 400px;
+    outline: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    
+
+      }
+
+
+  input::placeholder{
+    color: gray;
+  }
+ .botHello{
+  background-color: #D80669;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-radius: 10px;
+  text-align: left;
+  margin-top: 10px;
+  padding: 7px;
+  padding-left: 10px;
+  max-width: 280px;
+  border-bottom-left-radius: 0px ;
+  margin-bottom: 40px;
+ }
+
+  .bot,.botTPLIST,.tpstatus,.confirmation,.choixcours,.afk,.afknon,.afkoui{
+    background-color: #D80669;
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 10px;
+    padding: 7px;
+    padding-left: 10px;
+    max-width: 280px;
+    border-bottom-left-radius: 0px ;
+    margin-top: 38px;
+    
+  }
+/*https://www.flaticon.com/free-icon/chatbot_2040946*/
+
+  .user{
+  
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius: 10px; 
+    text-align: right;
+    margin-top: 10px;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: 0;
+    color:black;
+    margin-right: 10px;
+    border: solid 2px #D80669;
+    border-bottom-right-radius: 0px ;
+    margin-top: 40px;
+    
+  }
+  .chat{
+    display: inline-block;
+    max-width: 400px;
+  }
+  .historyContainer{
+    height:600px;
+    overflow: scroll;
+  }
+h1{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.tp{
+  color : black;
+  margin-left: 30px;
+  font-size: 15px;
+  font-style:oblique;
+  font-weight: 600;
+  text-align: start;
+  
+}
+
+.tp::before{
+  content: "• ";
+  color: white;
+}
+
+.tplink{
+  text-decoration: none;
+  color : black;
+  margin-left: 30px;
+  font-size: 15px;
+  font-style:oblique;
+  font-weight: 600;
+  text-align: start;
+  
+}
+
+
+.tplink::before{
+  content: "• ";
+  color: white;
+}
+
+.lienTp{
+  color: aqua;
+}
+
+.helloBT{
+  position: relative;
+  background: none;
+  border: solid 2px #D80669;
+  height: 25px;
+  width: fit-content;
+  margin: 7px;
+  border-radius: 10px;
+  float: left;
+  top: -36px
+  
+}
+
+
+.helloBT:hover{
+  cursor: pointer;
+  -webkit-box-shadow: 2px 3px 11px -5px #D80669; 
+box-shadow: 2px 3px 11px -5px #D80669;
+}
+
+.btConf{
+  position: relative;
+  background: none;
+  border: solid 2px #D80669;
+  height: 25px;
+  width: fit-content;
+  margin: 7px;
+  border-radius: 10px;
+  float: left;
+  font-weight: 800;
+}
+
+.btConf:hover{
+  cursor: pointer;
+  -webkit-box-shadow: 2px 3px 11px -5px #D80669; 
+box-shadow: 2px 3px 11px -5px #D80669;
+}
+
+hr{
+  border-top: 1px solid #D80669;
+}
+
+.retard{
+  text-decoration: none;
+  color: #001368;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+span > .retard::before{
+  content: "⌚ ";
+}
+
+.rendu{
+  text-decoration: none;
+  color: #4CC92E;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+span > .rendu::before{
+  content: "✅ ";
+}
+
+.pasdonner{
+  text-decoration: none;
+  color: #FF9B00;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+span > .pasdonner::before{
+  content: "⏳ ";
+}
+
+.courchoix{
+  color : black;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.tpStat{
+  margin-left: 5px;
+  color: white;
+  
+}
+
+span > .tpStat::before{
+  content: "• ";
+}

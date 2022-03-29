@@ -1,0 +1,6 @@
+en local :
+npm run dev
+
+sur le serveur : 
+Sudo su
+Nohup npm run dev &
